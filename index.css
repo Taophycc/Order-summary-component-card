@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: 'red hat',sans-serif;
+}
+
+.parent-container {
+    background: url(pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card-container {
+    min-height: 670px;
+    max-width: 400px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow:1px 30px 30px rgb(197, 210, 246);
+    
+}
+
+.image-header {
+    border-radius: 1.5em 1.5em 0em 0em;
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-weight: 900;
+    font-size: 1.8rem;
+   
+}
+section > p {
+    color: rgb(129 ,133 ,157);
+    margin-top: 1em;
+    text-align: center;
+}
+section {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.payment-container {
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+    width: 320px;
+    height: 100px;
+    background-color: rgb(248, 249, 254);
+    border-radius: 15px;
+    justify-items: end;
+    margin: 0;
+
+}
+
+.music-icon {
+   padding-left: 0.625em;
+   width: 3em;
+   height: 3em;
+   margin-top: 1.6em;
+   margin-left: 1em;
+   background-color: rgb(248, 249, 254);
+   
+}
+
+.icon {
+    width: max-content;
+}
+
+.payment-container p {
+    display: flex;
+    flex-direction: column;
+    color: rgb(48, 57, 82);
+    font-weight: 700;
+    margin-left: 1.5em;
+    margin-bottom: 0em;
+    margin-top: 1.5em;
+    
+}
+
+span {
+    color:rgb(150, 155, 173);
+}
+
+a {
+    display: flex;
+    align-self: center;
+    justify-self: start;
+    margin-left: 3.4375em;
+}
+
+.btn {
+    display: block;
+    justify-self: center;
+    margin-top: 2em;
+    padding-block: 1.4em;
+    padding-inline: 8em;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 17px;
+    font-weight: 1000;
+    box-shadow:1px 15px 10px rgb(222, 215, 248);
+    
+} 
+
+.btn:hover {
+    /* 
+    border: 3px hsl(245, 75%, 52%) solid;
+    background-color: white;
+    color: hsl(245, 75%, 52%);
+     */
+    filter: brightness(90%);
+
+}
+.btn2 {
+    color: green;
+    margin:2em 11em ;
+    background-color: transparent;
+    border: none;
+    color: rgb(122, 128, 154);
+    font-size: bold;
+    font-weight: 1000;
+}
+
+@media screen and (max-width:450px) {
+    
+
+    .card-container {
+        min-height: 580px;
+        max-width: 400px;
+        margin: 1.8em;  
+    }
+
+
+    .image-header {
+        height:180px;
+    }
+
+    section {
+        padding-block: 1em;
+
+    }
+    h1 {
+        text-align: center;
+        margin: 0;
+        font-weight: 900;
+        font-size: 1.5rem;
+       
+    }
+
+    section > p {
+        font-size: smaller;
+    }
+
+    .payment-container {
+        width: 270px;
+        height: 100px;
+    
+    }
+
+    a {
+        display: flex;
+        align-self: center;
+        justify-self: start;
+        margin-left: 2em;
+    }
+
+    .btn {
+        margin-top: 2em;
+        padding-block: 1.4em;
+        padding-inline: 6em;
+    }
+
+    .btn2 {
+        min-width:100px;
+        display: flex;
+        justify-self: center;
+    }
+}
