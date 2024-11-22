@@ -63,7 +63,7 @@ section {
     border-radius: 15px;
     justify-items: end;
     margin: 0;
-    margin-left:40px;
+    
 
 }
 
@@ -115,7 +115,7 @@ a {
     border-radius: 17px;
     font-weight: 1000;
     box-shadow:1px 15px 10px rgb(222, 215, 248);
-    margin-left:50px;
+   
     
 } 
 
@@ -136,7 +136,7 @@ a {
     color: rgb(122, 128, 154);
     font-size: bold;
     font-weight: 1000;
-    margin-left:150px;
+    
 }
 
 @media screen and (max-width:450px) {
