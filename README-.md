@@ -21,13 +21,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](image.png)
+[Screenshot](image.png)
 
 
 ### Links
 
 - Solution URL: [taophycc.github.io](https://github.com/Taophycc/Order-summary-component-card.git)
-- Live Site URL: [taophycc.github.io](https://your-live-site-url.com)
+- Live Site URL: [taophycc.github.io](https://taophycc.github.io/Order-summary-component-card/)
 
 
 ### Built with
@@ -45,6 +45,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Website - [Taophyc](#)
 - Frontend Mentor - [@taophycc](https://www.frontendmentor.io/profile/taophycc)
-- Twitter - [@yourusername](https://www.twitter.com/taophyc_)
+- Twitter - [@taophyc_](https://www.twitter.com/taophyc_)
 
 
